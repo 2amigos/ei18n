@@ -2,8 +2,8 @@
 Ei18n Module 0.1 Manual 
 =========================
 Ei18 is a translation module to allow Yii'ers to easily manage missing translations on application pages. 
-It is heavily inspired by `yii.translate<https://github.com/gusnips/yii.translate>`_ 
-developed by Gustavo Salomé Silva `gusnips<http://www.yiiframework.com/user/6112/>`_.
+It is heavily inspired by `yii.translate <https://github.com/gusnips/yii.translate>`_ 
+developed by Gustavo Salomé Silva `gusnips <http://www.yiiframework.com/user/6112/>`_.
 
 The module also allows the edition of translations specified by categories. Its utility 
 widget WTranslate handles that very smoothly. 
