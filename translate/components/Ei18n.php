@@ -337,7 +337,7 @@ class Ei18n extends CApplicationComponent {
 					translation TEXT,
 					PRIMARY KEY (`id`,`language`)
  
-				)TYPE=InnoDB";
+				)ENGINE=InnoDB";
 			$db->createCommand($sql)->execute();
 			
 			/* todo: not tested yet */
