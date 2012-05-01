@@ -26,7 +26,7 @@ class TranslateController extends CController {
 	{
 		return array(
 			'set'=>array(
-				'class'=>'translate.actions.set',
+				'class'=>'translate.actions.Set',
 			),
 		);
 	}
