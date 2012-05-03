@@ -373,7 +373,7 @@ class Ei18n extends CApplicationComponent {
 					category VARCHAR(32) NOT NULL,
 					message TEXT
  
-				)TYPE=InnoDB";
+				)ENGINE=InnoDB";
 			$db->createCommand($sql)->execute();
 		}
 	}
