@@ -1,19 +1,19 @@
 =========================
 Ei18n Module 0.1 Manual 
 =========================
-Ei18n is a translation module to allow Yii'ers to easily manage missing translations on application pages. 
+Ei18n is a translation module to allow Yii'ers to easily manage missing translations on their application pages. 
 It is heavily inspired by `yii.translate <https://github.com/gusnips/yii.translate>`_ 
 developed by Gustavo Salomé Silva `gusnips <http://www.yiiframework.com/user/6112/>`_.
 
 The module also allows the edition of translations specified by categories. Its utility 
 widget WTranslate handles that very smoothly. 
 
-All is AJAX based at the frontend. I thought that would be better to leave to developers 
-the creation of a backend in order to edit translation on a regular basis. 
+The frontend is all AJAX based. I thought that would be better to leave to developers 
+the creation of a backend in order to edit translations on a regular basis. 
 
-Its Ei18n component has a couple of helper functions to also manage language setting 
-automation. Check also its Set CAction class to be included on the controller that will 
-handle language setting.
+Plus, the Ei18n component has a couple of helper functions to the language settings 
+automation. Check the Set CAction class to be included on the controller that will 
+handle language settings.
 
 
 ========
@@ -81,7 +81,7 @@ On your main.php config file do the following::
 Displaying the editor
 --------------------------
 
-Once the module and the translation component have been set. You just use any of 
+Once the module and the translation component have been set. You can just use any of 
 the following helper functions::
 
     Yii::app()->translate->renderMissingTranslationsEditor();
@@ -89,11 +89,11 @@ the following helper functions::
     /* Yii::app()->translate->renderTranslationsEditor(array('index','menu')); */
 
 
-The first method and due to the view rendering nature of Yii, I highly recommend the display of those functions 
+The first method, and due to the view rendering nature of Yii, I highly recommend the display of those functions 
 at the bottom of your ``main`` or ``base`` layout, as it will collect all missing ones throughout 
 the rendering process.
 
 
 [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)    
-<i>web development has never been so fun</i>  
+<i>web development has never been so fun</i>
 [www.2amigos.us](http://www.2amigos.us)
