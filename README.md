@@ -95,5 +95,5 @@ the rendering process.
 
 
 [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)    
-<i>Who knew web development could be so fun? We did!</i>  
-[www.2amigos.us](http://www.2amigos.us) - under construction -
+<i>web development has never been so fun</i>
+[www.2amigos.us](http://www.2amigos.us)
